@@ -3,7 +3,7 @@ pipeline {
 	stages{
 		stage("Build"){
 			steps{
-				sh "dotnet build /ConsoleAppJenkins/ConsoleAppJenkins.csproj"
+				sh "dotnet build ConsoleAppJenkins/ConsoleAppJenkins.csproj"
 			}
 		}
 	}
